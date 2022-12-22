@@ -1,0 +1,32 @@
+body {
+	font-family: 'Public Sans', sans-serif;
+    line-height: 1.5;
+    
+}
+
+h1 {
+	font-size: 2.5rem; /* 40px */
+}
+
+h2 {
+	font-size: 1.875rem; /* 30px */
+}
+
+h3 {
+	font-size: 1.5rem; /* 24px */
+    letter-spacing: 0.125em;
+}
+
+p {
+	font-size: 1.25rem; /* 20px */
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+article {
+	margin: 0 auto;
+	width: 90%;
+}
+h3 + p {
+	margin-top: 0;
+}

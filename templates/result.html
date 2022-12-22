@@ -1,0 +1,32 @@
+<html>
+  <meta charset="UTF-8" />
+  <title>Text Layout</title>
+  <meta name="viewport" content="width=device-width" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Quicksand:wght@700&amp;display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ url_for('static', filename='css/main.css') }}"
+  />
+
+  <body style="padding-top: 10%">
+    <div style="padding-left: 20%; padding-right: 20%">
+      <div>
+        <h3 style="text-align: left">Youtube Video</h3>
+        <iframe width="420" height="315" src="{{url}}"></iframe>
+      </div>
+      <div>
+        <h3 style="text-align: left">Text</h3>
+        <p>{{transcript}}</p>
+      </div>
+      <div>
+        <h3 style="text-align: left">Summarized Text</h3>
+        <p>{{summary}}</p>
+      </div>
+    </div>
+  </body>
+</html>
